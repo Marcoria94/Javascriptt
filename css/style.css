@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* estilos del header */
+header{
+    height: 25vh;
+    background-color:black;
+    background-image: url(../img/porton.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+}
+/* estilos a la barra de navegacion */
+nav{
+    background-color: #5F7161;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    background-color: #5F7161;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 1.5rem;
+    
+}
+/* estilos de contenedores */
+
+#contenedor-productos {
+    background-color: #EFEAD8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+   
+}
+
+#contenedor-carrito {
+    background-color: #EFEAD8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divProducto {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #6D8B74;
+    border: 1px solid black;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    box-shadow: 3px 3px;
+}
+.divCarrito{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #6D8B74;
+    border: 1px solid black;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    box-shadow: 3px 3px;
+
+}
+
+/* botones */
+.botonEliminar{
+    color: aliceblue;
+    background-color: blue;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+.botonVaciar{
+    color: aliceblue;
+    background-color: blue;
+    font-size: 100%;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.botonAgregar {
+    color: aliceblue;
+    background-color: blue;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+
+/* SPAM */
+.contador{
+    margin-left: 5px;
+}
+.precioTotal {
+    color: aliceblue;
+    background-color: blue;
+    font-size: 100%;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+}

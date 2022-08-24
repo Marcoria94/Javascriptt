@@ -1,0 +1,58 @@
+[
+    {
+       "id":1,
+       "nombre":"Pizza",
+       "precio":1200,
+       "detalle":"Muzzarella",
+       "imagen":"../img/pizzamuzza.jpg"
+    },
+    {
+       "id":2,
+       "nombre":"Pizza especial",
+       "precio":1600,
+       "detalle":"Especial",
+       "imagen":"../img/pizzaEspecial.jpg"
+    },
+    {
+       "id":3,
+       "nombre":"Hamburguesa",
+       "precio":1200,
+       "detalle":"Doble carne con cheddar",
+       "imagen":"../img/hamburguesa.jpg"
+    },
+    {
+       "id":4,
+       "nombre":"Hamburguesa",
+       "precio":1400,
+       "detalle":"Doble carne con cheddar, panceta, huevo",
+       "imagen":"../img/hamburguesaEspecial.jpg"
+    },
+    {
+       "id":5,
+       "nombre":"Milanesa",
+       "precio":1200,
+       "detalle":"Tomate y lechuga",
+       "imagen":"../img/milanesa.jpg"
+    },
+    {
+       "id":6,
+       "nombre":"Milanesa",
+       "precio":1500,
+       "detalle":"Tomate, lechuga, J y Q , huevo",
+       "imagen":"../img/milanesaEspecial.jpg"
+    },
+    {
+       "id":7,
+       "nombre":"Papas fritas",
+       "precio":500,
+       "detalle":"Papas solas",
+       "imagen":"../img/papasfritas.jpg"
+    },
+    {
+       "id":8,
+       "nombre":"Papas fritas",
+       "precio":800,
+       "detalle":"Papas con cheddar",
+       "imagen":"../img/papasconcheddar.jpg"
+    }
+ ]

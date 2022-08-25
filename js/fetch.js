@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //FETCH 
 
-fetch('../data/productos.json')
+fetch('/data/productos.json')
     .then(res => res.json())
     .then(productos => {
         productos.forEach((producto) => {

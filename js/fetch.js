@@ -57,6 +57,9 @@ fetch('../data/productos.json')
 
     }
     )
+    .catch(err => console.log(err))
+
+
 
     
 // pintar productos en carrito

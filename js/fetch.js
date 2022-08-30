@@ -128,7 +128,7 @@ borrarCarrito.addEventListener("click", () => {
             )
             carrito.length = 0
             verCarrito()
-            localStorage.clear()
+            localStorage.removeItem("carrito")
         }
     })
 
